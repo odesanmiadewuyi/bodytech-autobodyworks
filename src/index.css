@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@import "tailwindcss/preflight"; /* ✅ Replaces @tailwind base */
+@import "tailwindcss/utilities"; /* ✅ Replaces @tailwind utilities */
+
+
+@theme {
+    --color-primary-red: #ff5733;
+    --color-secondary-yellow: #ffcc00;
+    --color-purpleCustom-purple: #7E3AF2;
+    --color-red-600: '#dc2626'; /* For the badges */
+    --color-gray-50: '#f9fafb'; /* Light background */
+    --color-gray-800: '#1f2937', /* Dark text */
+    --color-gray-600: '#4b5563'  /* Regular text */
+}
