@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   plugins: [tailwindcss()],
-  base: "/bodytech-autobodyworks"
+  //base: "/bodytech-autobodyworks"
 });

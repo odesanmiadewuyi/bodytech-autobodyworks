@@ -3,7 +3,7 @@ import bodytechLogo from "../assets/BODYTECH_Logo.png"; // Direct import of logo
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 px-8 py-12 text-sm">
+    <footer className="bg-gray-500 text-gray-300 px-8 py-12 text-sm">
       {/* Top Section */}
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-10">
         {/* Company Info */}
@@ -13,16 +13,13 @@ const Footer = () => {
             alt="Bodytech Logo"
             className="h-[50px] w-[100px] object-contain mb-2"
           />
-          <h3 className="text-white text-lg font-semibold">BODYTECH NE Ltd.</h3>
+          <h3 className="text-white text-lg font-semibold">Bodtech Autobody Works.</h3>
           <p className="mt-2 leading-relaxed">
-            Compound 18, <br />
-            Tudhoe Ind Est, <br />
-            Spennymoor, <br />
-            Co Durham <br />
-            DL16 6TL
-          </p>
-          <p className="italic text-sm mt-4 text-gray-400">
-            Registered in England & Wales No. 15976401 | Vat No. 184797938
+            The Gables, <br />
+            Holywell Road, <br />
+            Sheffield S4 8AR, <br />
+            Bodtech Autobody <br />
+            Works Unit 5
           </p>
         </div>
 
@@ -35,15 +32,7 @@ const Footer = () => {
       {/* Footer Bottom Bar */}
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-xs text-gray-400">
         <p>
-          © 2025 Bodytech NE Ltd – website by{" "}
-          <a
-            href="https://www.dxps.com"
-            className="hover:underline text-gray-300"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            www.dxps.com
-          </a>
+          © 2025 Bodtech Autobody Works
         </p>
 
         {/* Contact Info */}
@@ -55,10 +44,10 @@ const Footer = () => {
           <div className="flex items-center gap-1">
             <span className="text-white">✉️</span>
             <a
-              href="mailto:info@bodytechautomotive.co.uk"
+              href="mailto:bod_11@yahoo.com"
               className="hover:underline text-gray-300"
             >
-              info@bodytechautomotive.co.uk
+              bod_11@yahoo.com
             </a>
           </div>
         </div>

@@ -25,6 +25,9 @@ import CarPolishing from "./pages/CarPolishing";
 import ColourBlending from "./pages/ColourBlending";
 import RepairofScratches from "./pages/RepairofScratches";
 import StoneChipsRepair from "./pages/StoneChipsRepair";
+import About from "./pages/About";
+import BackToTop from "./components/BackToTop"; // Import the BackToTop component
+
 
 
 function App() {
@@ -53,6 +56,7 @@ function App() {
 
             {/* Other pages */}
             <Route path="/services" element={<Services />} />
+            <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/service/invisible-touchup" element={<InvisibleTouchup />} />
             <Route path="/service/bumper-corner-touch-up" element={<BumperCornerTouchUp />} />
@@ -66,6 +70,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <BackToTop />
 
       </div>
     </Router>
