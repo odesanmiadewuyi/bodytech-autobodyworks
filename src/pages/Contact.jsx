@@ -121,8 +121,8 @@ const Contact = () => {
               <h3 className="text-xl font-bold">CONTACT</h3>
             </div>
             <p className="text-gray-300">
-              e: <a href="mailto:hello@bodytechautomotive.co.uk" className="hover:underline">hello@bodytechautomotive.co.uk</a><br />
-              t: <a href="tel:01388811611" className="hover:underline">01388 811611</a>
+              e: <a href="mailto:hello@bodytechautomotive.co.uk" className="hover:underline">bod_11@yahoo.com</a><br />
+              t: <a href="tel:01388811611" className="hover:underline">07735705723</a>
             </p>
           </div>
 
@@ -135,8 +135,8 @@ const Contact = () => {
               <h3 className="text-xl font-bold">OPENING HOURS</h3>
             </div>
             <p className="text-gray-300">
-              Monday to Friday .............. 8:30 am – 5:30 pm<br />
-              Saturday ... 8 am – 12:00 pm | Sunday ... Closed
+              Monday to Friday .............. 8:00 am – 6:00 pm<br />
+              Saturday ... 8 am – 6:00 pm | Sunday ... Closed
             </p>
           </div>
         </div>
