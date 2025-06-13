@@ -17,7 +17,7 @@ const WelcomeSection = () => {
           {/* Description */}
           <div>
             <p className="text-lg mb-4">
-              Bodytech Autobody Works is a car body shop based in Sheffield, County South Yorkshire. We are certified, experienced specialists in vehicle body repairs utilising genuine parts and manufacturer-approved repair methods.
+              Bodtech Autobody Works is a car body shop based in Sheffield, County South Yorkshire. We are certified, experienced specialists in vehicle body repairs utilising genuine parts and manufacturer-approved repair methods.
             </p>
             <p className="text-lg mb-4">
               Established over 22 years ago, we’re a family-run business priding ourselves on quality repairs and the best in customer service. If your vehicle has been in an accident or damaged, our specialist team assures prompt service to get you back on the road in no time.

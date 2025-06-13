@@ -17,6 +17,22 @@ const images = [
   { src: "/gallery/car6.jpeg", alt: "Car image" },
   { src: "/gallery/car7.jpeg", alt: "Car image" },
   { src: "/gallery/car8.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-1.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-2.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-3.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-4.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-5.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-6.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-7.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-8.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-9.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-10.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-11.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-12.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-13.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-14.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-15.jpeg", alt: "Car image" },
+  { src: "/gallery/VB6-16.jpeg", alt: "Car image" },
 ];
 
 export default function CarsSlider() {
