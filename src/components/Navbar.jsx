@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/BODYTECH_Logo.png";
-
+//import Logo from "../assets/BODYTECH_Logo.png";
+import Logo from "../assets/BODYTECH_Logo_new2.png";
 const Navbar = () => {
   return (
     <nav className="bg-black text-white py-4 shadow-md">

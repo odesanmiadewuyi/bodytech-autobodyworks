@@ -1,5 +1,5 @@
 import React from "react";
-import bodytechLogo from "../assets/BODYTECH_Logo.png"; // Direct import of logo
+import bodytechLogo from "../assets/BODYTECH_Logo_new3.png"; // Direct import of logo
 import { FaRegBuilding, FaUsers, FaHandsHelping } from "react-icons/fa"; // For icons
 
 const About = () => {

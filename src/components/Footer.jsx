@@ -3,7 +3,7 @@ import bodytechLogo from "../assets/BODYTECH_Logo.png"; // Direct import of logo
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-500 text-gray-300 px-8 py-12 text-sm">
+    <footer className="bg-black text-gray-300 px-8 py-12 text-sm">
       {/* Top Section */}
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-10">
         {/* Company Info */}
