@@ -3,15 +3,15 @@ import bumperCornerImg from "../assets/services/bumper_corner.jpeg"; // Ensure t
 
 const BumperCornerTouchUp = () => {
   return (
-    <div className="min-h-screen bg-blue-50 py-16 px-4 flex flex-col items-center justify-center space-y-16">
+    <div className="min-h-screen bg-blue-50 py-16 px-4 flex flex-col items-center justify-center space-y-10 sm:space-y-12">
     
          {/* Hero Section: Image + Text Side by Side */}
     {/* Hero Section: Image + Text Side by Side */}
-    <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-row items-center justify-between gap-12 border-2 border-gray-800 rounded-lg p-8 bg-blue-100 shadow-lg mb-32">
+    <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-row items-center justify-between gap-10 border-2 border-gray-800 rounded-lg p-6 sm:p-8 bg-blue-100 shadow-lg mb-12 sm:mb-16">
     
       {/* Left: Text Section */}
       <div className="w-full md:w-1/2 text-center md:text-center">
-      <h1 className="text-[4rem] sm:text-[5rem] md:text-[6rem] font-extrabold text-cyan-700 leading-tight">
+      <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-cyan-700 leading-tight">
           Repair Guarantee<br />
           You Can Fix Yourself,<br />
           We don't judge, we just fix it.
@@ -32,7 +32,7 @@ const BumperCornerTouchUp = () => {
     
     
           {/* Text Block Centered */}
-          <div className="bg-blue-80 text-gray-800 px-6 py-16 lg:px-24 lg:py-24 max-w-5xl w-full mx-auto rounded-xl shadow-xl text-center">
+          <div className="bg-blue-100 text-gray-800 px-4 sm:px-6 lg:px-10 py-10 sm:py-12 lg:py-16 max-w-4xl w-full mx-auto rounded-xl shadow-xl text-center">
           <span className="text-blue-600 font-black">Repair of Scratches:</span> <span className="text-black font-black">Restore Your Car’s Perfection</span>
     
     

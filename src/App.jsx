@@ -1,5 +1,5 @@
 // src/App.js
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -31,10 +31,16 @@ import BackToTop from "./components/BackToTop"; // Import the BackToTop componen
 
 
 function App() {
+  const [isUploaderAuthed, setIsUploaderAuthed] = useState(false);
+
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
-        <Navbar />
+        <Navbar
+          isUploaderAuthed={isUploaderAuthed}
+          onAuthSuccess={() => setIsUploaderAuthed(true)}
+          onLogout={() => setIsUploaderAuthed(false)}
+        />
 
         <main className="flex-grow">
           <Routes>
@@ -49,7 +55,7 @@ function App() {
                   <CallSection />
                   <ServicesSection />
                   <Carforsales />
-                  <CarsSlider />
+                  <CarsSlider canUpload={isUploaderAuthed} />
                 </>
               }
             />

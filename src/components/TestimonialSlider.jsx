@@ -27,7 +27,7 @@ const testimonials = [
 
 export default function TestimonialSlider() {
   return (
-    <div className="bg-black py-20 px-6 text-white">
+    <div className="bg-black py-20 text-white">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={50}
@@ -36,7 +36,7 @@ export default function TestimonialSlider() {
         pagination={{ clickable: true }}
         autoplay={{ delay: 5000 }}
         loop={true}
-        className="max-w-6xl mx-auto"
+        className="page-container"
       >
         {testimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>

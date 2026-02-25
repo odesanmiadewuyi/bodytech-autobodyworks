@@ -22,13 +22,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gray-900 text-white py-48 px-6 md:px-24 h-auto border-12 border-white">
+    <div className="bg-gray-900 text-white py-16 sm:py-20 px-6 md:px-24 h-auto border-4 border-white">
       {/* Main Container with two sections: Left (Contact Form) and Right (Address, Contact, Opening Hours) */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
         
         {/* Left Section (Contact Form) */}
         <div className="border-4 border-white p-6 rounded-lg w-full">
-          <h2 className="text-3xl font-bold text-white-600 mb-4">GET IN TOUCH!</h2>
+          <h2 className="text-3xl font-bold text-white mb-4">GET IN TOUCH!</h2>
 
           <form onSubmit={handleSubmit} className="w-full max-w-lg space-y-6">
             <div className="flex flex-col">
@@ -52,13 +52,13 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleInputChange}
                 placeholder="Your Email"
-                className="p-3 rounded-lg bg-gray-800 text-black border-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-white-500"
+                className="p-3 rounded-lg bg-gray-800 text-white border-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-white/40"
                 required
               />
             </div>
 
             <div className="flex flex-col">
-  <label className="text-lg text-gray-700 mb-2">Phone</label>
+  <label className="text-lg text-gray-300 mb-2">Phone</label>
   <input
     type="text"
     name="phone"
@@ -76,7 +76,7 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleInputChange}
                 placeholder="Your Message"
-                className="p-3 rounded-lg bg-white-800 text-black border-2 border-white-300 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                className="p-3 rounded-lg bg-white text-black border-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500"
                 required
               ></textarea>
             </div>

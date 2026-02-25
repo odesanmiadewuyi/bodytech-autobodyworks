@@ -7,11 +7,11 @@ const Services = () => {
   return (
     <div>
       {/* Existing Banner Section */}
-      <div className="relative w-full h-[200px] md:h-[400px] overflow-hidden">
+      <div className="relative w-full h-48 sm:h-64 md:h-80 overflow-hidden">
         <img
           src={servicingImage}
           alt="Servicing Banner"
-          className="w-full h-[300px] object-cover rounded-lg"
+          className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center px-4">
           <h2 className="text-white text-lg md:text-2xl font-bold">SERVICING</h2>
@@ -50,43 +50,43 @@ const Services = () => {
       </div>
 
       {/* Glowing Banner Section */}
-      <div className="relative w-full h-[400px] bg-gray-900 overflow-hidden flex items-center justify-center">
+      <div className="relative w-full h-64 sm:h-80 md:h-[400px] bg-gray-900 overflow-hidden flex items-center justify-center">
         <img
           src={glowingBanner}
           alt="Bodytech Autobody Works"
           className="w-full h-full object-cover opacity-70"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-          <h1 className="text-yellow-400 text-5xl md:text-7xl font-extrabold drop-shadow-[0_0_20px_rgba(255,215,0,0.8)]">
+          <h1 className="text-yellow-400 text-4xl sm:text-5xl md:text-7xl font-extrabold drop-shadow-[0_0_20px_rgba(255,215,0,0.8)]">
             BODYTECH
           </h1>
-          <p className="text-yellow-300 text-xl md:text-3xl font-semibold mt-2 drop-shadow-[0_0_10px_rgba(255,215,0,0.6)] tracking-wide">
+          <p className="text-yellow-300 text-lg sm:text-xl md:text-3xl font-semibold mt-2 drop-shadow-[0_0_10px_rgba(255,215,0,0.6)] tracking-wide">
             AUTOBODY WORKS
           </p>
         </div>
       </div>
 
       {/* Contact Section */}
-      <div className="bg-black text-white h-[200px] px-6 mt-20">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-around gap-6 h-full">
+      <div className="bg-black text-white px-6 py-12 mt-16">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-around gap-8">
           {/* Left Text Section */}
           <div className="text-center md:text-left">
-            <h2 className="text-4xl md:text-6xl font-extrabold leading-relaxed">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-relaxed">
               LET'S GET YOU<br />SORTED.
             </h2>
-            <p className="text-xl mt-8 text-purple-400 font-semibold">
+            <p className="text-lg sm:text-xl mt-4 sm:mt-6 text-purple-400 font-semibold">
               Contact us now to book your repair
             </p>
           </div>
 
           {/* Phone Number Section */}
-          <div className="flex items-center gap-4 text-4xl font-bold text-white mt-10 md:mt-0">
-            <span className="text-purple-500 text-5xl">📱</span>07735705723
+          <div className="flex items-center gap-3 text-2xl sm:text-3xl font-bold text-white mt-6 md:mt-0">
+            <span className="text-purple-500 text-3xl sm:text-4xl">📱</span>07735705723
           </div>
 
           {/* Message Button */}
           <div className="mt-10 md:mt-0 flex justify-center">
-            <button className="bg-gradient-to-r from-indigo-500 to-pink-500 text-white font-extrabold text-5xl w-[390px] h-[75px] rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300">
+            <button className="bg-gradient-to-r from-indigo-500 to-pink-500 text-white font-extrabold text-lg sm:text-xl px-6 py-3 sm:px-8 sm:py-4 rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300 w-full sm:w-auto">
               SEND US A MESSAGE 💬
             </button>
           </div>
